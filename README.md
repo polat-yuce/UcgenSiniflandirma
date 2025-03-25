@@ -1,38 +1,23 @@
 # Üçgen Sınıflandırma Projesi
 
-Bu proje, kullanıcının girdiği üç kenar uzunluğuna göre bir üçgenin türünü belirleyen bir programın geliştirilmesini amaçlamaktadır. 
-Üçgenin türü, kenar uzunluklarına göre eşkenar, ikizkenar veya çeşitkenar olarak sınıflandırılabilir. 
-Ayrıca, verilen kenar uzunluklarının geçerli bir üçgen oluşturup oluşturmadığı da kontrol edilir.
+Bu proje, kullanıcının girdiği üç kenar uzunluğuna göre bir üçgenin türünü belirleyen bir programın geliştirilmesini amaçlamaktadır. Üçgen, kenar uzunluklarına göre eşkenar, ikizkenar veya çeşitkenar olarak sınıflandırılabilir.
 
-## Proje Açıklaması
+## Program Açıklaması
 
-Bu program, kullanıcıdan üçgenin kenar uzunluklarını alır ve bu bilgilere dayanarak üçgenin geçerliliğini ve türünü belirler. Üçgen türleri ve geçerlilik durumları şu şekildedir:
-
-- **Geçerli Üçgen**: Herhangi bir kenarı, diğer iki kenarın toplamından kısa; farkından da uzundur.
-- **Eşkenar Üçgen**: 3 kenarı da aynı uzunluğa sahiptir.
-- **İkizkenar Üçgen**: Aynı uzunlukta iki kenarı ve farklı uzunlukta bir üçüncü kenarı vardır.
-- **Çeşitkenar Üçgen**: Tüm kenar uzunlukları farklıdır.
-- **Geçersiz Üçgen**: Verilen kenar uzunlukları, geçerli bir üçgen oluşturmaz.
-
-## Kullanım
-
-1. Program, kullanıcıdan üçgenin ilk kenar uzunluğunu isteyecektir.
-2. Program, kullanıcıdan üçgenin ikinci kenar uzunluğunu isteyecektir.
-3. Program, kullanıcıdan üçgenin üçüncü kenar uzunluğunu isteyecektir.
-4. Verilen kenar uzunluklarına göre üçgenin türü ve geçerliliği kontrol edilir.
-5. Sonuç, üçgenin türü ve geçerlilik durumu ile birlikte kullanıcıya gösterilir.
+1. **Kullanıcıdan üçgenin ilk kenar uzunluğunu okuyun.**
+2. **Kullanıcıdan üçgenin ikinci kenar uzunluğunu okuyun.**
+3. **Kullanıcıdan üçgenin üçüncü kenar uzunluğunu okuyun.**
+4. **Girilen kenar uzunluklarına göre üçgenin türünü ve geçerliliğini belirleyin.**
+5. **Belirlenen üçgen türünü ve geçerlilik durumunu içeren bir mesajı konsolda görüntüleyin.**
 
 ## Üçgen Türleri ve Geçerlilik
 
-### Geçerli Üçgen
-Bir üçgenin geçerli olup olmadığı, kenar uzunluklarının şu şartları sağlamasıyla belirlenir:
-- Her bir kenar uzunluğu, diğer iki kenarın toplamından kısa olmalıdır.
-- Aynı şekilde, her bir kenar uzunluğu, diğer iki kenarın farkından uzun olmalıdır.
+- **Geçerli Üçgen:** Herhangi bir kenarı, diğer iki kenarın toplamından kısa; farkından da uzundur.
+    - **Eşkenar Üçgen:** 3 kenarı da aynı uzunluğa sahiptir.
+    - **Ikizkenar Üçgen:** Aynı uzunlukta iki kenarı ve farklı uzunlukta üçüncü bir kenarı vardır.
+    - **Çeşitkenar Üçgen:** Tüm kenar uzunlukları farklıdır.
+- **Geçersiz Üçgen:** Verilen kenar uzunlukları geçerli bir üçgen oluşturmaz.
 
-### Üçgen Türleri
-- **Eşkenar Üçgen**: Tüm kenarları eşit olan üçgendir.
-- **İkizkenar Üçgen**: İki kenarı eşit, bir kenarı farklı olan üçgendir.
-- **Çeşitkenar Üçgen**: Tüm kenar uzunlukları farklı olan üçgendir.
-- **Geçersiz Üçgen**: Kenar uzunlukları geçerli bir üçgen oluşturmazsa bu durum söz konusu olur.
+Bu program, kullanıcının girdiği üç kenar uzunluklarına göre üçgenin türünü ve geçerliliğini belirleyerek sonucu konsolda göstermektedir. Eğer kullanıcı geçerli bir üçgen tanımazsa veya üçgen belirlenen tür kriterlerine uymazsa, uygun bir hata mesajı gösterilir.
 
 
